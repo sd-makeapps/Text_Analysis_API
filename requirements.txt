@@ -10,3 +10,5 @@ python-decouple==3.8
 scikit_learn==1.0.2
 transformers==4.30.2
 psycopg2==2.9.6
+whitenoise==6.5.0
+gunicorn==21.2.0
