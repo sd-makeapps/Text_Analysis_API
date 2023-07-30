@@ -9,3 +9,4 @@ pandas==1.4.4
 python-decouple==3.8
 scikit_learn==1.0.2
 transformers==4.30.2
+psycopg2==2.9.6
