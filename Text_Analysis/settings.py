@@ -82,20 +82,7 @@ WSGI_APPLICATION = "Text_Analysis.wsgi.application"
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
-if DEBUG:
-    DATABASES = {
-        'default': {
-            'ENGINE': 'django.db.backends.postgresql_psycopg2',
-            'NAME': 'Text_Analysis',
-            'USER': 'postgres',
-            'PASSWORD': 'DBmaster',
-            'HOST': 'localhost',
-            'PORT': '5432',
-        }
-    }
-else:
-    DATABASES = {"default": dj_database_url.config()}
-
+DATABASES = {"default": dj_database_url.config()}
 
 
 SUPERUSER_NAME = env("SUPERUSER_NAME")
