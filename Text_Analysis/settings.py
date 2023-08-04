@@ -43,7 +43,7 @@ SECRET_KEY = "django-insecure-vokvmo07%-4ozr4!2svk&pr1bc*$*n1j+oucm#h*jl1+=&386l
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['127.0.0.1', 'text-analysis-s96e.onrender.com']
 
 # Application definition
 
