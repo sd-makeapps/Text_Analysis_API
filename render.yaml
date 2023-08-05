@@ -14,7 +14,7 @@ services:
     startCommand: 'gunicorn Text_Analysis.wsgi:application'
     plan: free
     branch: master
-    healthCheckPath: /
+    healthCheckPath: /analysis_api/api/
     envVars:
       - key: DATABASE_URL
         fromDatabase:
